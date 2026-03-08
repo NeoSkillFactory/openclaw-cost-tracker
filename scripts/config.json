@@ -1,0 +1,48 @@
+{
+  "currency": "USD",
+  "currency_symbol": "$",
+  "default_period": "current_month",
+  "sources": {
+    "provider_api": {
+      "enabled": true,
+      "items": [
+        {
+          "name": "Claude API",
+          "monthly_cost": 150.00,
+          "description": "Anthropic Claude API usage"
+        }
+      ]
+    },
+    "subscriptions": {
+      "enabled": true,
+      "items": [
+        {
+          "name": "OpenClaw Pro",
+          "monthly_cost": 29.99,
+          "description": "OpenClaw platform subscription"
+        }
+      ]
+    },
+    "tool_apis": {
+      "enabled": true,
+      "items": [
+        {
+          "name": "Web Search API",
+          "cost_per_call": 0.01,
+          "calls": 1200,
+          "description": "Search API for agent queries"
+        }
+      ]
+    },
+    "vps": {
+      "enabled": true,
+      "items": [
+        {
+          "name": "Hetzner CX21",
+          "monthly_cost": 10.00,
+          "description": "VPS for agent hosting"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "openclaw-cost-tracker",
+  "version": "1.0.0",
+  "description": "Automatically aggregates and reports all OpenClaw-related costs in a comprehensive monthly report",
+  "main": "scripts/cost-tracker.js",
+  "bin": {
+    "cost-tracker": "scripts/cost-tracker.js"
+  },
+  "scripts": {
+    "start": "node scripts/cost-tracker.js",
+    "report": "node scripts/report-generator.js",
+    "test": "node --test scripts/*.test.js"
+  },
+  "keywords": ["openclaw", "cost-tracking", "reporting", "api-costs"],
+  "license": "MIT"
+}
