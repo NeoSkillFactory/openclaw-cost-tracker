@@ -16,8 +16,6 @@
 
 Source code: [github.com/NeoSkillFactory/openclaw-cost-tracker](https://github.com/NeoSkillFactory/openclaw-cost-tracker)
 
-**Price suggestion:** $19.99
-
 ## License
 
 MIT © NeoSkillFactory
